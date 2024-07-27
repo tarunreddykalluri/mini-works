@@ -1,0 +1,60 @@
+/*h1::before{
+    content: "KALLURI.       ";
+}
+h1::after{
+    content: "         KUMAR         REDDY    ";
+}*/
+.shape{
+    background-color: black;
+    color: #000;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position:relative;
+    margin: 100px;
+    left: 0px;
+    top: 0px;
+
+
+}
+.shape::before{
+    content: " ";
+    background-color: yellow;
+    color:white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+
+
+.shape::after{
+    content: " ";
+    background-color: red;
+    color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;    
+    bottom: 0px;    
+
+    
+}
+/*.shape::before{
+    content: " ";
+    background-color: green;
+    color:white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position:absolute;
+    bottom: 0px;
+
+}
+*/
+

@@ -1,0 +1,54 @@
+.reddy{
+    background-color: red;
+    height: 100rem;
+    
+}
+ #cheddy{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* padding: 30px; */
+} 
+#cheddy:hover{
+    animation: movetheball 5s ease-in-out;
+    background-color: yellow;
+}
+@keyframes movetheball {
+    25%{
+        transform: translate(400%,0);
+        background-color: pink;
+        border-radius: 10%;
+        
+    }  
+    50%{
+        transform: translate(400%,-400%);
+        background-color: black;
+        border-radius: 30%;
+
+
+    } 
+    75%{
+        transform: translate(0,400%);
+        background-color: white;
+        border-radius: 50%;
+
+
+    
+    }
+    100%{
+        transform: translate(0,0);
+        background-color: forestgreen;
+        border-radius: 16%;
+
+    }
+
+}
+.reddy{
+    position: relative;
+}
+#cheddy{
+    position: absolute;
+    /* margin-left: 100px; */
+    text-align: center;
+}

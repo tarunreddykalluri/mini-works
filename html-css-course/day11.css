@@ -1,0 +1,52 @@
+/* element selector */
+/* span{ */
+    /* background-color: red; */
+    /* color: whitesmoke; */
+/* } */
+/* element-list selector */
+/* span,div,h1{ */
+    /* background-color: red; */
+    /* color: whitesmoke; */
+/* } universal selelctor*/
+/* *{ */
+    /* border:dashed yellow; */
+    /* color:white; */
+    /* background-color: black; */
+/* } */
+/* *:hover{ */
+    /* background-color: white; */
+/* } */
+/* id selector */
+/* #gm-miss{ */
+    /* color: red; */
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+
+/* } */
+/* class selector */
+/* .mpl{ */
+    /* background-color: black; */
+    /* color: red; */
+    /* border: 3px dashed yellow; */
+    /* border-radius/: 3%; */
+/* } */
+/* units */
+/* px,%,vh,vw,rem,em */
+/* descandent selector */
+/* parent to any child */
+/* b{ */
+    /* border:3px solid blue; */
+    /* color:yellowgreen;
+    background-color:pink ;
+    height: 50%;
+    width: 50%; */
+    
+/* } */
+/* direct child selectors  */
+/* parent to direct child */
+/* strong mark{ */
+    /* background-color: red; */
+    /* color:  aqua; */
+/*  */
+/* } */
+

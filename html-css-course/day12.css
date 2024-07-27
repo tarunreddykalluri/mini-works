@@ -1,0 +1,18 @@
+.class1{
+    background-color: black;
+    border: 2px dotted red;
+    color: aqua;
+    display: block;
+}
+.class2{
+    background-color:yellow;
+    border: 2px dashed blue;
+    color: green;
+    display: inline;
+}
+.class3{
+    background-color: violet;
+    border: 2px solid purple;
+    color: white;
+    display: inline-block;
+}

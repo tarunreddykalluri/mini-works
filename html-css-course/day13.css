@@ -1,0 +1,22 @@
+.parent{
+    background-color: pink;
+    color: black;
+    border: 2px dashed blue;
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+.wish{
+    background-color: white;
+    color: aqua;
+    border: red;
+    position: absolute;
+    left: 60px;
+    right: 20px;
+    bottom: 100px;
+    top: 00200px;
+}
